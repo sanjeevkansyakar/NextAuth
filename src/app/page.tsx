@@ -13,7 +13,7 @@ export default function Home() {
             <p>
                 I created this system as part of my journey to learn the Next.js
                 framework. Leveraging the power of MongoDB and Mailtrap for
-                email services, it's been an enriching experience.
+                email services, its been an enriching experience.
             </p>
         </main>
     );
