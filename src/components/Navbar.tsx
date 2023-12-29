@@ -10,7 +10,7 @@ const Navbar = () => {
     const router = useRouter();
 
     const checkCookie = (cookieName: string) => {
-        const cookies = document.cookie.split(";");
+        const cookies = window.document.cookie.split(";");
         return cookies.some((cookie) =>
             cookie.trim().startsWith(`${cookieName}=`)
         );
